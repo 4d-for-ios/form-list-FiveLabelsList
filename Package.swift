@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "4d-for-ios-form-list-Profile",
+    name: "4d-for-ios-form-list-FiveLabelsList",
     platforms: [
         .iOS(.v13)
     ],
