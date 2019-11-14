@@ -1,0 +1,10 @@
+{
+  "type": "listform",
+  "name": "Five Label Table",
+  "fields": {
+    "count": 5
+  },
+  "tags": {
+    "___LISTFORMTYPE___": "Table"
+  }
+}
