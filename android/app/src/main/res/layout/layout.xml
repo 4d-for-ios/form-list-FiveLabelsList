@@ -10,138 +10,137 @@
         <!--ENTITY_VARIABLE-->
     </data>
 
-    <!-- Generated with list form template named "My Custom List" -->
+    <!-- Generated with list form template named "Five Labels List" -->
 
     <androidx.cardview.widget.CardView
         android:id="@+id/mainCardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:cardElevation="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:cardCornerRadius="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:cardElevation="2dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?colorSurface">
-
-        <!-- START EDITING HERE -->
-
-        <LinearLayout
-            android:id="@+id/linear1"
-            android:orientation="horizontal"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-            <TextView
-                android:id="@+id/__SPECIFIC_ID_1__"
-                android:text="__TEXT_1__"
-                tools:text="My field 1"
-                android:layout_height="wrap_content"
-                android:layout_width="0dp"
-                android:layout_weight=".50"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="6dp"
-                android:scrollbars="none"
-                android:textColor="?colorOnSurface"
-                android:textSize="17sp"
-                android:textStyle="bold"/>
+            android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/__SPECIFIC_ID_2__"
-                android:text="__TEXT_2__"
-                tools:text="My field 2"
-                android:layout_height="wrap_content"
-                android:layout_width="0dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="6dp"
-                android:layout_weight=".50"
-                android:textAlignment="viewEnd"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="16dp"
-                android:scrollbars="none"
-                android:textColor="?colorOnSurface"
-                android:textSize="17sp"
-                android:textStyle="bold"/>
-        </LinearLayout>
+            <!-- START EDITING HERE -->
 
-        <LinearLayout
-            android:id="@+id/linear2"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linear1">
-            <TextView
-                android:id="@+id/__SPECIFIC_ID_3__"
-                android:text="__TEXT_3__"
-                tools:text="My field 3"
-                android:layout_height="wrap_content"
-                android:layout_width="0dp"
-                android:layout_weight=".50"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="6dp"
-                android:scrollbars="none"
-                android:textColor="?colorOnSurface"
-                android:textSize="16sp"/>
-
-            <TextView
-                android:id="@+id/__SPECIFIC_ID_4__"
-                android:text="__TEXT_4__"
-                tools:text="My field 4"
-                android:layout_height="wrap_content"
-                android:layout_width="0dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="6dp"
-                android:layout_weight=".50"
-                android:textAlignment="viewEnd"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="16dp"
-                android:scrollbars="none"
-                android:textColor="?colorOnSurface"
-                android:textSize="16sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/linear3"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            android:background="@color/gray"
-            app:layout_constraintTop_toBottomOf="@+id/linear2">
-
-            <TextView
-                android:id="@+id/__SPECIFIC_ID_5__"
-                android:text="__TEXT_5__"
-                tools:text="My field 5"
-                android:layout_height="wrap_content"
+            <LinearLayout
+                android:id="@+id/linear1"
                 android:layout_width="match_parent"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="6dp"
-                android:textAlignment="center"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="16dp"
-                android:scrollbars="none"
-                android:textColor="?colorOnSurface"
-                android:textSize="15sp"
-                />
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/__SPECIFIC_ID_1__"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight=".50"
+                    android:scrollbars="none"
+                    android:text="__TEXT_1__"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    android:textColor="?colorOnSurface"
+                    android:textStyle="bold"
+                    tools:text="My field 1" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/__SPECIFIC_ID_2__"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight=".50"
+                    android:scrollbars="none"
+                    android:text="__TEXT_2__"
+                    android:textAlignment="viewEnd"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    android:textColor="?colorOnSurface"
+                    android:textStyle="bold"
+                    tools:text="My field 2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linear1">
+
+                <TextView
+                    android:id="@+id/__SPECIFIC_ID_3__"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight=".50"
+                    android:scrollbars="none"
+                    android:text="__TEXT_3__"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    android:textColor="?colorOnSurface"
+                    tools:text="My field 3" />
+
+                <TextView
+                    android:id="@+id/__SPECIFIC_ID_4__"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight=".50"
+                    android:scrollbars="none"
+                    android:text="__TEXT_4__"
+                    android:textAlignment="viewEnd"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    android:textColor="?colorOnSurface"
+                    tools:text="My field 4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#60999999"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linear2">
+
+                <TextView
+                    android:id="@+id/__SPECIFIC_ID_5__"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:scrollbars="none"
+                    android:text="__TEXT_5__"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    android:textColor="?colorOnSurface"
+                    tools:text="My field 5" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
     </androidx.cardview.widget.CardView>
 
 </layout>
